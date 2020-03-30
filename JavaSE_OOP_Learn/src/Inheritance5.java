@@ -1,24 +1,24 @@
 /*
-    ÎÊÌâÊÇ£ºÎÒ²»½ö½öÒªÊä³ö¾Ö²¿·¶Î§µÄnum£¬»¹ÒªÊä³ö³ÉÔ±·¶Î§µÄnum£¬ÔõÃ´°ìÄØ
-    ÎÒ»¹ÏëÒªÊä³ö¸¸Àà³ÉÔ±·¶Î§µÄnum¡£ÔõÃ´°ìÄØ£¿
-        Èç¹ûÓÐÒ»¸ö¶«Î÷ºÍthisÏàËÆ£¬µ«ÊÇ¿ÉÒÔ·ÃÎÊ¸¸ÀàµÄÊý¾Ý¾ÍºÃÁË¡£
-        Õâ¸ö¹Ø¼ü×Ö¾ÍÊÇsuper¡£
+    é—®é¢˜æ˜¯ï¼šæˆ‘ä¸ä»…ä»…è¦è¾“å‡ºå±€éƒ¨èŒƒå›´çš„numï¼Œè¿˜è¦è¾“å‡ºæˆå‘˜èŒƒå›´çš„numï¼Œæ€Žä¹ˆåŠžå‘¢
+    æˆ‘è¿˜æƒ³è¦è¾“å‡ºçˆ¶ç±»æˆå‘˜èŒƒå›´çš„numã€‚æ€Žä¹ˆåŠžå‘¢ï¼Ÿ
+        å¦‚æžœæœ‰ä¸€ä¸ªä¸œè¥¿å’Œthisç›¸ä¼¼ï¼Œä½†æ˜¯å¯ä»¥è®¿é—®çˆ¶ç±»çš„æ•°æ®å°±å¥½äº†ã€‚
+        è¿™ä¸ªå…³é”®å­—å°±æ˜¯superã€‚
 
-    thisºÍsuperµÄÇø±ð
-        ·Ö±ðÊÇÊ²Ã´ÄØ
-            this´ú±í±¾Àà¶ÔÓ¦µÄÒýÓÃ¡£
-            super´ú±í¸¸Àà´æ´¢¿Õ¼äµÄ±êÊ¶£¨¿ÉÒÔÀí½âÎª¸¸ÀàÒýÓÃ£¬¿ÉÒÔ²Ù×÷¸¸ÀàµÄ³ÉÔ±£©
+    thiså’Œsuperçš„åŒºåˆ«
+        åˆ†åˆ«æ˜¯ä»€ä¹ˆå‘¢
+            thisä»£è¡¨æœ¬ç±»å¯¹åº”çš„å¼•ç”¨ã€‚
+            superä»£è¡¨çˆ¶ç±»å­˜å‚¨ç©ºé—´çš„æ ‡è¯†ï¼ˆå¯ä»¥ç†è§£ä¸ºçˆ¶ç±»å¼•ç”¨ï¼Œå¯ä»¥æ“ä½œçˆ¶ç±»çš„æˆå‘˜ï¼‰
 
-        ÔõÃ´µ÷ÓÃÄØ£¿
-            A:µ÷ÓÃ³ÉÔ±±äÁ¿
-                this.³ÉÔ±±äÁ¿   µ÷ÓÃ±¾ÀàµÄ³ÉÔ±±äÁ¿
-                super.³ÉÔ±±äÁ¿  µ÷ÓÃ¸¸ÀàµÄ³ÉÔ±±äÁ¿
-            B:µ÷ÓÃ¹¹Ôì·½·¨
-                this(...)   µ÷ÓÃ±¾ÀàµÄ¹¹Ôì·½·¨
-                super(...)  µ÷ÓÃ¸¸ÀàµÄ¹¹Ôì·½·¨
-            C:µ÷ÓÃ³ÉÔ±·½·¨
-                this.³ÉÔ±·½·¨   µ÷ÓÃ±¾ÀàµÄ³ÉÔ±·½·¨
-                super.³ÉÔ±·½·¨  µ÷ÓÃ¸¸ÀàµÄ³ÉÔ±·½·¨
+        æ€Žä¹ˆè°ƒç”¨å‘¢ï¼Ÿ
+            A:è°ƒç”¨æˆå‘˜å˜é‡
+                this.æˆå‘˜å˜é‡   è°ƒç”¨æœ¬ç±»çš„æˆå‘˜å˜é‡
+                super.æˆå‘˜å˜é‡  è°ƒç”¨çˆ¶ç±»çš„æˆå‘˜å˜é‡
+            B:è°ƒç”¨æž„é€ æ–¹æ³•
+                this(...)   è°ƒç”¨æœ¬ç±»çš„æž„é€ æ–¹æ³•
+                super(...)  è°ƒç”¨çˆ¶ç±»çš„æž„é€ æ–¹æ³•
+            C:è°ƒç”¨æˆå‘˜æ–¹æ³•
+                this.æˆå‘˜æ–¹æ³•   è°ƒç”¨æœ¬ç±»çš„æˆå‘˜æ–¹æ³•
+                super.æˆå‘˜æ–¹æ³•  è°ƒç”¨çˆ¶ç±»çš„æˆå‘˜æ–¹æ³•
  */
 public class Inheritance5 {
     public static void main(String[] args) {

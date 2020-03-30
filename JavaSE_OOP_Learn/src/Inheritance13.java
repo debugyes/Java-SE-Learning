@@ -1,44 +1,44 @@
 /*
-    Ã¨¹·°¸Àý½²½â
+    çŒ«ç‹—æ¡ˆä¾‹è®²è§£
 
-    ÏÈÕÒµ½¾ßÌåµÄÊÂÎï£¬È»ºó·¢ÏÖ¾ßÌåµÄÊÂÎïÓÐ¹²ÐÔ£¬²ÅÌáÈ¡³öÒ»¸ö¸¸Àà
+    å…ˆæ‰¾åˆ°å…·ä½“çš„äº‹ç‰©ï¼Œç„¶åŽå‘çŽ°å…·ä½“çš„äº‹ç‰©æœ‰å…±æ€§ï¼Œæ‰æå–å‡ºä¸€ä¸ªçˆ¶ç±»
 
-    Ã¨£º
-        ³ÉÔ±±äÁ¿£ºÐÕÃû£¬ÄêÁä£¬ÑÕÉ«
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£º
+    çŒ«ï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„ï¼Œé¢œè‰²
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼š
             getXxx()/setXxx
             eat()
             playGames()
-    ¹·£º
-        ³ÉÔ±±äÁ¿£ºÐÕÃû£¬ÄêÁä£¬ÑÕÉ«
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£º
+    ç‹—ï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„ï¼Œé¢œè‰²
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼š
             getXxx()/setXxx
             eat()
             guard()
 
 
-    ¹²ÐÔ£º
-        ³ÉÔ±±äÁ¿£ºÐÕÃû£¬ÄêÁä£¬ÑÕÉ«
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£º
+    å…±æ€§ï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„ï¼Œé¢œè‰²
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼š
             getXxx()/setXxx
             eat()
 
-    °Ñ¹²ÐÔ¶¨Òåµ½Ò»¸öÀàÖÐ£¬Õâ¸öÀàµÄÃû×Ö½Ð£º¶¯Îï
-    ¶¯ÎïÀà£º
-        ³ÉÔ±±äÁ¿£ºÐÕÃû£¬ÄêÁä£¬ÑÕÉ«
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£º
+    æŠŠå…±æ€§å®šä¹‰åˆ°ä¸€ä¸ªç±»ä¸­ï¼Œè¿™ä¸ªç±»çš„åå­—å«ï¼šåŠ¨ç‰©
+    åŠ¨ç‰©ç±»ï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„ï¼Œé¢œè‰²
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼š
             getXxx()/setXxx
             eat()
-    Ã¨£º
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£ºplayGame()
-    ¹·£º
-        ¹¹Ôì·½·¨£ºÎÞ²Î£¬´ø²Î
-        ³ÉÔ±·½·¨£ºguard()
+    çŒ«ï¼š
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼šplayGame()
+    ç‹—ï¼š
+        æž„é€ æ–¹æ³•ï¼šæ— å‚ï¼Œå¸¦å‚
+        æˆå‘˜æ–¹æ³•ï¼šguard()
 
  */
 public class Inheritance13 {
@@ -52,7 +52,7 @@ public class Inheritance13 {
         c1.playGame();
         System.out.println("---------------");
 
-        Cat c2 = new Cat(27, "½ÜÈð", "½ð");
+        Cat c2 = new Cat(27, "æ°ç‘ž", "é‡‘");
         System.out.println(c2.getAge() + "---" + c2.getColor() + "---" + c2.getName());
         c2.eat();
         c2.playGame();
@@ -99,7 +99,7 @@ class Animal{
     }
 
     public void eat(){
-        System.out.println("³Ô·¹");
+        System.out.println("åƒé¥­");
     }
 }
 

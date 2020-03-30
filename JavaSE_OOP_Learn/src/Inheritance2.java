@@ -1,28 +1,28 @@
 /*
-    JavaÖĞ¼Ì³ĞµÄÌØµã£º
-        A:JavaÖĞÖ»Ö§³Öµ¥¼Ì³Ğ£¬²»Ö§³Ö¶à¼Ì³Ğ
-            ÓĞĞ©ÓïÑÔÊÇÖ§³Ö¶à¼Ì³ĞµÄ£¬¸ñÊ½£ºextends Àà1£¬Àà2£¬...
-        B:JavaÖ§³Ö¶à²ã¼Ì³Ğ
+    Javaä¸­ç»§æ‰¿çš„ç‰¹ç‚¹ï¼š
+        A:Javaä¸­åªæ”¯æŒå•ç»§æ‰¿ï¼Œä¸æ”¯æŒå¤šç»§æ‰¿
+            æœ‰äº›è¯­è¨€æ˜¯æ”¯æŒå¤šç»§æ‰¿çš„ï¼Œæ ¼å¼ï¼šextends ç±»1ï¼Œç±»2ï¼Œ...
+        B:Javaæ”¯æŒå¤šå±‚ç»§æ‰¿
 
  */
 public class Inheritance2 {
     public static void main(String[] args) {
         Son s = new Son();
 
-        s.method();//Ê¹ÓÃ¸¸Ç×µÄ
-        s.show();//Ê¹ÓÃÒ¯Ò¯µÄ
+        s.method();//ä½¿ç”¨çˆ¶äº²çš„
+        s.show();//ä½¿ç”¨çˆ·çˆ·çš„
     }
 }
 
 class GrandFather{
     public void show() {
-        System.out.println("ÎÒÊÇÒ¯Ò¯");
+        System.out.println("æˆ‘æ˜¯çˆ·çˆ·");
     }
 }
 
 class Father extends GrandFather{
     public void method() {
-        System.out.println("ÎÒÊÇ°Ö°Ö");
+        System.out.println("æˆ‘æ˜¯çˆ¸çˆ¸");
     }
 }
 

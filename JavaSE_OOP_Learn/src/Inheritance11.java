@@ -1,25 +1,25 @@
 /*
-    ÀÏÊ¦ºÍÑ§Éú°¸Àı
+    è€å¸ˆå’Œå­¦ç”Ÿæ¡ˆä¾‹
 
-    Ñ§Éú£º
-        ³ÉÔ±±äÁ¿£ºĞÕÃû£¬ÄêÁä
-        ¹¹Ôì·½·¨£ºÎŞ²Î
-        ³ÉÔ±·½·¨£ºgetXxx()/setXxx()
-    ÀÏÊ¦£º
-        ³ÉÔ±±äÁ¿£ºĞÕÃû£¬ÄêÁä
-        ¹¹Ôì·½·¨£ºÎŞ²Î
-        ³ÉÔ±·½·¨£ºgetXxx()/setXxx()
+    å­¦ç”Ÿï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„
+        æ„é€ æ–¹æ³•ï¼šæ— å‚
+        æˆå‘˜æ–¹æ³•ï¼šgetXxx()/setXxx()
+    è€å¸ˆï¼š
+        æˆå‘˜å˜é‡ï¼šå§“åï¼Œå¹´é¾„
+        æ„é€ æ–¹æ³•ï¼šæ— å‚
+        æˆå‘˜æ–¹æ³•ï¼šgetXxx()/setXxx()
  */
 public class Inheritance11 {
-    public static void main(String[] args){
-        //´´½¨Ñ§Éú¶ÔÏó²¢²âÊÔ
-        //·½Ê½1
+    public static void main(String[] args) {
+        //åˆ›å»ºå­¦ç”Ÿå¯¹è±¡å¹¶æµ‹è¯•
+        //æ–¹å¼1
         StudentK s1 = new StudentK();
         s1.setAge(18);
         s1.setName("megumi");
         System.out.println(s1.getAge() + "----" + s1.getName());
 
-        //·½Ê½2
+        //æ–¹å¼2
         StudentK s2 = new StudentK("megumi", 18);
         System.out.println(s1.getAge() + "----" + s1.getName());
     }

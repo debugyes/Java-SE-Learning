@@ -1,34 +1,34 @@
 /*
-    ²ÂÊı×ÖĞ¡ÓÎÏ·£¨Êı¾İÔÚ1-100£©Ö®¼ä
+    çŒœæ•°å­—å°æ¸¸æˆï¼ˆæ•°æ®åœ¨1-100ï¼‰ä¹‹é—´
 
-    ·ÖÎö£º
-        A:³ÌĞò²úÉúÒ»¸öËæ»úÊı¡£
-        B:¼üÅÌÂ¼ÈëÊı¾İ¡££¨Äã²ÂµÄ£©
-        C:Äã²ÂµÄºÍ±»²ÂµÄ½øĞĞ±È½Ï
-            a:´óÁË
-            b:Ğ¡ÁË
-            c:²ÂÖĞÁË
-        D:¸ø³ö²Â¶à´ÎµÄ»ú»á£¬²ÂÖĞ¾Í½áÊø¡£
-            while()Ñ­»·£¬²ÉÓÃbreak
+    åˆ†æï¼š
+        A:ç¨‹åºäº§ç”Ÿä¸€ä¸ªéšæœºæ•°ã€‚
+        B:é”®ç›˜å½•å…¥æ•°æ®ã€‚ï¼ˆä½ çŒœçš„ï¼‰
+        C:ä½ çŒœçš„å’Œè¢«çŒœçš„è¿›è¡Œæ¯”è¾ƒ
+            a:å¤§äº†
+            b:å°äº†
+            c:çŒœä¸­äº†
+        D:ç»™å‡ºçŒœå¤šæ¬¡çš„æœºä¼šï¼ŒçŒœä¸­å°±ç»“æŸã€‚
+            while()å¾ªç¯ï¼Œé‡‡ç”¨break
  */
 import java.util.Scanner;
 public class GuessNumber {
     public static void main(String[] args) {
         int number = (int)(Math.random()*100)+1;
-        //¼üÅÌÂ¼Èë
+        //é”®ç›˜å½•å…¥
         Scanner sc = new Scanner(System.in);
 
 
-        while (true)
-        {   System.out.println("ÇëÊäÈëÄãÒª²ÂµÄÊı¾İ£º£¨1-100£©");
+        while (true) {
+            System.out.println("è¯·è¾“å…¥ä½ è¦çŒœçš„æ•°æ®ï¼šï¼ˆ1-100ï¼‰");
             int guessNumber = sc.nextInt();
 
             if (guessNumber > number) {
-                System.out.println("Äã²ÂµÄÊı¾İ" + guessNumber + "´óÁË");
+                System.out.println("ä½ çŒœçš„æ•°æ®" + guessNumber + "å¤§äº†");
             } else if (guessNumber < number) {
-                System.out.println("Äã²ÂµÄÊı¾İ" + guessNumber + "Ğ¡ÁË");
+                System.out.println("ä½ çŒœçš„æ•°æ®" + guessNumber + "å°äº†");
             } else {
-                System.out.println("¹§Ï²Äú£¬²ÂÖĞÁË");
+                System.out.println("æ­å–œæ‚¨ï¼ŒçŒœä¸­äº†");
                 break;
             }
         }

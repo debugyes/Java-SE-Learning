@@ -1,15 +1,15 @@
 /*
-    final¿ÉÒÔÐÞÊÎÀà£¬·½·¨£¬±äÁ¿
+    finalå¯ä»¥ä¿®é¥°ç±»ï¼Œæ–¹æ³•ï¼Œå˜é‡
 
-    ÌØµã£º
-        finalÐÞÊÎÀà£¬¸ÃÀà²»ÄÜ±»¼Ì³Ð
-        finalÐÞÊÎ·½·¨£¬¸Ã·½·¨²»ÄÜ±»ÖØÐ´
-        finalÐÞÊÎ±äÁ¿£¬¸Ã±äÁ¿²»ÄÜ±»ÖØÐ´¸³Öµ£¬ÒòÎªÕâ¸ö±äÁ¿ÆäÊµ¾ÍÊÇ³£Á¿
+    ç‰¹ç‚¹ï¼š
+        finalä¿®é¥°ç±»ï¼Œè¯¥ç±»ä¸èƒ½è¢«ç»§æ‰¿
+        finalä¿®é¥°æ–¹æ³•ï¼Œè¯¥æ–¹æ³•ä¸èƒ½è¢«é‡å†™
+        finalä¿®é¥°å˜é‡ï¼Œè¯¥å˜é‡ä¸èƒ½è¢«é‡å†™èµ‹å€¼ï¼Œå› ä¸ºè¿™ä¸ªå˜é‡å…¶å®žå°±æ˜¯å¸¸é‡
 
-    ³£Á¿£º
-        A:×ÖÃæÖµ³£Á¿
+    å¸¸é‡ï¼š
+        A:å­—é¢å€¼å¸¸é‡
             "hello" 10 true
-        B:×Ô¶¨Òå³£Á¿
+        B:è‡ªå®šä¹‰å¸¸é‡
             final int x = 10
  */
 public class Final2 {

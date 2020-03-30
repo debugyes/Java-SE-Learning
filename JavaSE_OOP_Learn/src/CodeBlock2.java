@@ -1,11 +1,11 @@
 /*
-    ½á¹û:
+    ç»“æžœ:
         author megumi
-        ÎÒÊÇmain·½·¨
-        Student ¾²Ì¬´úÂë¿é
-        Student ¹¹Ôì´úÂë¿é
+        æˆ‘æ˜¯mainæ–¹æ³•
+        Student é™æ€ä»£ç å—
+        Student æž„é€ ä»£ç å—
         Student()
-        Student ¹¹Ôì´úÂë¿é
+        Student æž„é€ ä»£ç å—
         Student()
  */
 public class CodeBlock2 {
@@ -14,7 +14,7 @@ public class CodeBlock2 {
     }
 
     public static void main(String[] args){
-        System.out.println("ÎÒÊÇmain·½·¨");
+        System.out.println("æˆ‘æ˜¯mainæ–¹æ³•");
 
         StudentH s1 = new StudentH();
         StudentH s2 = new StudentH();
@@ -23,11 +23,11 @@ public class CodeBlock2 {
 
 class StudentH{
     static {
-        System.out.println("Student ¾²Ì¬´úÂë¿é");
+        System.out.println("Student é™æ€ä»£ç å—");
     }
 
     {
-        System.out.println("Student ¹¹Ôì´úÂë¿é");
+        System.out.println("Student æž„é€ ä»£ç å—");
     }
 
     public StudentH(){

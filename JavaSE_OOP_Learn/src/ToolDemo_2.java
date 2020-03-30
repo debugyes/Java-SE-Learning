@@ -1,21 +1,22 @@
 /**
- * ÕâÊÇÕë¶ÔÊý×é½øÐÐ²Ù×÷µÄ¹¤¾ßÀà
+ * è¿™æ˜¯é’ˆå¯¹æ•°ç»„è¿›è¡Œæ“ä½œçš„å·¥å…·ç±»
+ *
  * @author megumi
  * @version 1.0
- *
  */
 
 public class ToolDemo_2{
-    //°Ñ¹¹Ôì·½·¨Ë½ÓÐ£¬Íâ½ç¾Í²»ÄÜÔÙ´´½¨¶ÔÏóÁË
+    //æŠŠæž„é€ æ–¹æ³•ç§æœ‰ï¼Œå¤–ç•Œå°±ä¸èƒ½å†åˆ›å»ºå¯¹è±¡äº†
 
     /**
-     * ÕâÊÇË½ÓÐ¹¹Ôì
+     * è¿™æ˜¯ç§æœ‰æž„é€ 
      */
     private ToolDemo_2(){}
 
     /**
-     * ÕâÊÇ±éÀúÊý×éµÄ·½·¨£¬±éÀúºóµÄ¸ñÊ½ÊÇ£º[ÔªËØ1£¬ ÔªËØ2£¬ ÔªËØ3...]
-     * @param arr ÕâÊÇÒª±»±éÀúµÄÊý×é
+     * è¿™æ˜¯éåŽ†æ•°ç»„çš„æ–¹æ³•ï¼ŒéåŽ†åŽçš„æ ¼å¼æ˜¯ï¼š[å…ƒç´ 1ï¼Œ å…ƒç´ 2ï¼Œ å…ƒç´ 3...]
+     *
+     * @param arr è¿™æ˜¯è¦è¢«éåŽ†çš„æ•°ç»„
      */
     public static void printArry(int[] arr){
         for(int x = 0; x < arr.length; x++){
@@ -28,9 +29,9 @@ public class ToolDemo_2{
     }
 
     /**
-     * ÕâÊÇÊý×éÖÐ»ñÈ¡×î´óÖµµÄ·½·¨
-     * @param arr ÕâÊÇÒª»ñÈ¡×î´óÖµµÄÊý×é
-     * @return ·µ»ØÊý×éÖÐµÄ×î´óÖµ
+     * è¿™æ˜¯æ•°ç»„ä¸­èŽ·å–æœ€å¤§å€¼çš„æ–¹æ³•
+     * @param arr è¿™æ˜¯è¦èŽ·å–æœ€å¤§å€¼çš„æ•°ç»„
+     * @return è¿”å›žæ•°ç»„ä¸­çš„æœ€å¤§å€¼
      */
     public static int getMax(int[] arr) {
         int max = arr[0];
@@ -45,10 +46,10 @@ public class ToolDemo_2{
     }
 
     /**
-     * ÕâÊÇ»ñÈ¡Ö¸¶¨ÔªËØÔÚÊý×éÖÐµÚÒ»´Î³öÏÖµÄË÷Òý£¬Èç¹ûÔªËØ²»´æÔÚ¾Í·µ»Ø-1
-     * @param arr ±»²éÕÒµÄÊý×é
-     * @param value Òª²éÕÒµÄÔªËØ
-     * @return ·µ»ØÔªËØÔÚÊý×éÖÐµÄË÷Òý£¬Èç¹û²»´æÔÚ£¬Ôò·µ»Ø-1
+     * è¿™æ˜¯èŽ·å–æŒ‡å®šå…ƒç´ åœ¨æ•°ç»„ä¸­ç¬¬ä¸€æ¬¡å‡ºçŽ°çš„ç´¢å¼•ï¼Œå¦‚æžœå…ƒç´ ä¸å­˜åœ¨å°±è¿”å›ž-1
+     * @param arr è¢«æŸ¥æ‰¾çš„æ•°ç»„
+     * @param value è¦æŸ¥æ‰¾çš„å…ƒç´ 
+     * @return è¿”å›žå…ƒç´ åœ¨æ•°ç»„ä¸­çš„ç´¢å¼•ï¼Œå¦‚æžœä¸å­˜åœ¨ï¼Œåˆ™è¿”å›ž-1
      */
     public static int getIndex(int[] arr, int value) {
         int index = -1;

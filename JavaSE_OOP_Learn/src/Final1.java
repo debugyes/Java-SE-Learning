@@ -1,12 +1,12 @@
 /*
-    ¼Ì³ÐµÄ´úÂëÌåÏÖ
+    ç»§æ‰¿çš„ä»£ç ä½“çŽ°
 
-    ÓÉÓÚ¼Ì³ÐÖÐ·½·¨ÓÐÒ»¸öÏÖÏó£º·½·¨ÖØÐ´
-    ËùÒÔ£¬¸¸ÀàµÄ¹¦ÄÜ¾Í»á±»×ÓÀà¸ø¸²¸Çµô
-    ÓÐÐ©Ê±ºòÎÒÃÇ²»ÏëÈÃ×ÓÀàÈ¥¸²¸Çµô¸¸ÀàµÄ¹¦ÄÜ£¬Ö»ÄÜÈÃËûÊ¹ÓÃ¡£
-    Õâ¸öÊ±ºò£¬Õë¶ÔÕâÖÖÇé¿ö£¬Java¾ÍÌá¹©ÁËÒ»¸ö¹Ø¼ü×Ö£ºfinal
+    ç”±äºŽç»§æ‰¿ä¸­æ–¹æ³•æœ‰ä¸€ä¸ªçŽ°è±¡ï¼šæ–¹æ³•é‡å†™
+    æ‰€ä»¥ï¼Œçˆ¶ç±»çš„åŠŸèƒ½å°±ä¼šè¢«å­ç±»ç»™è¦†ç›–æŽ‰
+    æœ‰äº›æ—¶å€™æˆ‘ä»¬ä¸æƒ³è®©å­ç±»åŽ»è¦†ç›–æŽ‰çˆ¶ç±»çš„åŠŸèƒ½ï¼Œåªèƒ½è®©ä»–ä½¿ç”¨ã€‚
+    è¿™ä¸ªæ—¶å€™ï¼Œé’ˆå¯¹è¿™ç§æƒ…å†µï¼ŒJavaå°±æä¾›äº†ä¸€ä¸ªå…³é”®å­—ï¼šfinal
 
-    final£º×îÖÕµÄÒâË¼¡£³£¼ûµÄÊÇËü¿ÉÒÔÐÞÊÎÀà£¬·½·¨£¬±äÁ¿
+    finalï¼šæœ€ç»ˆçš„æ„æ€ã€‚å¸¸è§çš„æ˜¯å®ƒå¯ä»¥ä¿®é¥°ç±»ï¼Œæ–¹æ³•ï¼Œå˜é‡
 
  */
 public class Final1 {
@@ -24,15 +24,15 @@ class Fu2{
     }
 
     public final void show(){
-        System.out.println("ÕâÊÇ¾øÃÜ×ÊÔ´£¬ÈÎºÎÈË¶¼²»ÄÜÐÞ¸Ä");
+        System.out.println("è¿™æ˜¯ç»å¯†èµ„æºï¼Œä»»ä½•äººéƒ½ä¸èƒ½ä¿®æ”¹");
     }
 }
 
 class Zi2 extends Fu2{
-    //ZiÖÐµÄshow()ÎÞ·¨¸²¸ÇFUÖÐµÄshow()
+    //Ziä¸­çš„show()æ— æ³•è¦†ç›–FUä¸­çš„show()
     /*
     public void show(){
-        System.out.println("ÕâÊÇÒ»¶ÑÀ¬»ø");
+        System.out.println("è¿™æ˜¯ä¸€å †åžƒåœ¾");
     }
      */
 
