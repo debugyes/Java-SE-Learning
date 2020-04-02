@@ -1,3 +1,5 @@
+package JavaSE_OOP_Learn.src;
+
 /**
  * 这是针对数组进行操作的工具类
  *
