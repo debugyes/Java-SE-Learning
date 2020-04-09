@@ -145,6 +145,3 @@ class Pig extends Animal{
         System.out.println("猪侧着睡觉");
     }
 }
-
-
-
