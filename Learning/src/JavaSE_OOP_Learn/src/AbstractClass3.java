@@ -64,6 +64,27 @@ public class AbstractClass3 {
 
 
         //测试猫类
+        CatC c = new CatC();
+        c.setAge(3);
+        c.setName("小猫");
+        System.out.println(c.getAge() + "------" + c.getName());
+        c.eat();
+
+        CatC c2 = new CatC("小猫", 3);
+        System.out.println(c2.getAge() + "------" + c2.getName());
+        c2.eat();
+
+        System.out.println("-----------------------------------");
+
+        AnimalC a3 = new CatC();
+        a3.setAge(3);
+        a3.setName("小猫");
+        System.out.println(a3.getAge() + "---" + a3.getName());
+        a3.eat();
+
+        AnimalC a4 = new CatC("小猫", 3);
+        System.out.println(a4.getAge() + "---" + a4.getName());
+        a4.eat();
 
     }
 }
