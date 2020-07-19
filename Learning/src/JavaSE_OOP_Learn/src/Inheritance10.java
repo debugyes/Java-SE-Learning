@@ -26,7 +26,7 @@ class FatherG{
     }
 
      */
-    void show(){
+    public void show(){
         System.out.println("show Father");
     }
 
@@ -44,6 +44,10 @@ class SonG extends FatherG{
     void show(){
 
     }*/
+    public void show(){
+        System.out.println("show Son");
+    }
+
     public static void method(){
 
     }

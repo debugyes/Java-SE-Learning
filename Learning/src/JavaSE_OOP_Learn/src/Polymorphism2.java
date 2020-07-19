@@ -29,7 +29,6 @@ public class Polymorphism2 {
         AnimalTool.useCat(c);
         AnimalTool.useCat(c2);
         AnimalTool.useCat(c3);
-
          */
         //再次改进
         AnimalTool.useAnimal(c);
@@ -75,8 +74,6 @@ public class Polymorphism2 {
         //前面几个必须写，但是每次都该工具类很麻烦，
     }
 
-
-
 }
 
 class Animal{
@@ -89,6 +86,7 @@ class Animal{
     }
 }
 
+//针对动物操作的工具类
 class AnimalTool {
     private AnimalTool(){}
 

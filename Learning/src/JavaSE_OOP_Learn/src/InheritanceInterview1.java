@@ -34,7 +34,7 @@ class Zi extends Fu{
     public void show(){
         int num = 30;
         System.out.println(num);//30
-        System.out.println(this.num);//20、
-        System.out.println(super.num);//30
+        System.out.println(this.num);//20
+        System.out.println(super.num);//10
     }
 }

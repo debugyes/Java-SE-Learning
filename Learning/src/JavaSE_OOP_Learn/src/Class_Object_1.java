@@ -1,3 +1,5 @@
+package JavaSE_OOP_Learn.src;
+
 /*
     现实世界中事如何描述一个事物的？
         举例：学生

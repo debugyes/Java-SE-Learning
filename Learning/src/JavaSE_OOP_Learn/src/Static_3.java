@@ -1,3 +1,5 @@
+package JavaSE_OOP_Learn.src;
+
 /*
     static关键字注意事项
         A：在静态方法中是没有this关键字的
@@ -12,7 +14,7 @@
                 成员方法：可以静态也可以非静态
         简单记：静态只能访问静态。非静态能访问一切。
  */
-class Teacher {
+class TeacherS {
     public int num = 10;
     public static int num2 = 10;
 
@@ -34,7 +36,7 @@ class Teacher {
 
 public class Static_3 {
     public static void main(String[] args) {
-        Teacher t = new Teacher();
+        TeacherS t = new TeacherS();
 
         t.show();
         t.method();

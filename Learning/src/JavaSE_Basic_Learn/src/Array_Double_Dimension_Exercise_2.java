@@ -1,4 +1,4 @@
-/*
+package JavaSE_Basic_Learn.src;/*
     需求：打印杨辉三角形（行数可以键盘录入）
     1
     1 1
