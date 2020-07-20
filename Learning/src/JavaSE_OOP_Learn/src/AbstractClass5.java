@@ -114,4 +114,3 @@ class WorkStudent extends Student {
     }
 }
 
-
